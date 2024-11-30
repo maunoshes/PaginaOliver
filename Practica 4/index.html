@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino Basico 1: Entradas Digitales</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="rounded-circle me-3" src="assets/ImaUli.png" alt="..." width="40px">
+                        <img class="rounded-circle me-3" src="assets/fotoyo.jpeg" alt="..." width="40px">
+                        <img class="rounded-circle me-3" src="assets/ImaMauro.png" alt="..." width="40px">
+                            <div class="ms-2">
+                                <div class="fw-bold">
+                                    Cristian Ulises Ríos García<br />
+                                    Jesus Mauricio Díaz Flores <br />
+                                    Mauro David Sánchez Arena 
+                                </div>
+                                <div class="text-muted">Ingeniería Mecatronica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 5, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/ArduinoIni" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Durante esta práctica, diseñamos una serie de circuitos con el objetivo de comprender los fundamentos del funcionamiento de Arduino. Exploramos cómo el código se utiliza para proporcionar instrucciones a esta plataforma.</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Arduino es una plataforma de hardware y software de código abierto que permite crear proyectos electrónicos interactivos. Se basa en placas de circuito impresas con microcontroladores, que actúan como pequeños cerebros que controlan los componentes electrónicos. El software de Arduino es un entorno de desarrollo integrado (IDE) que facilita la programación en un lenguaje sencillo llamado C++.</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                            - Una placa de Arduino Uno <br/>
+                            - Un cable USB tipo B <br/>
+                            - LEDS <br/>
+                            - Un protoboard <br/>
+                            - Resistencias <br/>
+                            - Pulsador
+                        </p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Durante el desarrollo de esta práctica, trabajamos con siete ejemplos distintos que el profesor nos proporcionó a través de la aplicación Tinkercad. </p>
+                        <p class="fs-6 mb-4">A continuación explicaremos cada uno de los ejemplos que se elaborarón en clases. </p>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 1</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecto un LED, se conecto el lado negativo del LED a el negativo del protoboard, luego se conecto una resistencia del lado positivo del LED y del otro lado de la resistencia se conecto otro jumper que se conecta con el PIN 13 del Arduino. Despues se conecta el pulsador en medio del protoboard y se conecta el PIN izquierdo inferior con el PIN 8 del Arduino y en la misma columna se conecta una resistencia que va al negativo. Luego en el pin derecho inferior se conecta un jumper al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+        
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim1.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem1Cod.png" alt="..." /></figure>
+    
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 2</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conectaron dos LEDS, con un jumper cada uno va al negativo del protoboard, luego se conectaron unas resistencias del lado positivo de cada LED y del otro lado de la resistencia se conecto otro jumper que se conecta con el PIN 13 y -11 del Arduino. Despues se conectan los pulsadores en medio del protoboard y se conectan al PIN izquierdo inferior con el PIN 8 y 2 del Arduino respectivamente y en la misma columna se conectan unas resistencias que va al negativo del protoboard. Luego en el pin derecho inferior se conectan unos jumper al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+            
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim2.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem2Cod.png" alt="..." /></figure>
+                           
+                                
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 3</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecto un LED, con un jumper, se conecto el lado negativo del LED a el negativo del protoboard, luego se conecto una resistencia del lado positivo del LED y del otro lado de la resistencia se conecto otro jumper que se conecta con el PIN 13 del Arduino. Despues se conecta el pulsador en medio del protoboard y se conecta el PIN izquierdo inferior con el PIN 8 del Arduino y en la misma columna se conecta una resistencia que va al negativo. Luego en el pin derecho inferior se conecta un jumper al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+            
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim3.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem3Cod.png" alt="..." /></figure>
+
+                            
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 4</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conectaron dos LEDS, con un jumper cada uno va al negativo del protoboard, luego se conectaron unas resistencias del lado positivo de cada LED y del otro lado de la resistencia se conecto otro jumper que se conecta con el PIN 13 y -11 del Arduino. Despues se conectan los pulsadores en medio del protoboard y se conectan al PIN izquierdo inferior con el PIN 8 y 2 del Arduino respectivamente y en la misma columna se conectan unas resistencias que va al negativo protoboard. Luego en el pin derecho inferior se conectan unos jumper que va al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+            
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim4.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem4Cod.png" alt="..." /></figure>
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 5</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conectaron cuatro LEDS, con un jumper cada uno va al negativo del protoboard, luego se conectaron unas resistencias del lado positivo de cada LED y del otro lado de la resistencia se conecto otro jumper que se conecta con el PIN 13, 12, -11 y -10 del Arduino. Despues se conectan los pulsadores en medio del protoboard y se conectan al PIN izquierdo inferior con el PIN 2 del Arduino y en la misma columna se conectan unas resistencias que va al negativo del protoboard. Luego en el pin derecho inferior se conecta un jumper que va al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+                
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim5.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem5_1Cod.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem5_2Cod.png" alt="..." /></figure>
+     
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 6</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecta un LEDS, con un jumper va al negativo del protoboard, luego se conecta una resistencia del lado positivo del LED y del otro lado de la resistencia se conecta otro jumper que se conecta con el PIN 13 del Arduino. Despues se conectan los pulsadores en medio del protoboard y se conectan al PIN izquierdo inferior con el PIN 8 y 2 del Arduino respectivamente y en la misma columna se conectan unas resistencias que va al negativo del protoboard. Luego en el pin derecho inferior se conectan unos jumper al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+                
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim6_7Cod.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem6Cod.png" alt="..." /></figure>
+
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 7</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecta un LEDS, con un jumper va al negativo del protoboard, luego se conecta una resistencia del lado positivo del LED y del otro lado de la resistencia se conecta otro jumper que se conecta con el PIN 13 del Arduino. Despues se conectan los pulsadores en medio del protoboard y se conectan al PIN izquierdo inferior con el PIN 8 y 2 del Arduino respectivamente y en la misma columna se conectan unas resistencias que va al negativo del protoboard. Luego en el pin derecho inferior se conectan unos jumper al positivo del protoboard. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.</p>
+                
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim6_7Cod.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem7Cod.png" alt="..." /></figure>
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">En este apartado mostraremos los resultados que obtuvimos de cada ejemplo:  </p>
+                        
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 1</h2>
+                        <p class="fs-6 mb-4">El LED si prende al precionar el botón</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid1.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 2</h2>
+                        <p class="fs-6 mb-4">Ambos LEDS prenden con su respectivo botón</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid2.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 3</h2>
+                        <p class="fs-6 mb-4">El LED si prende al presionar el botón</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid3.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 4</h2>
+                        <p class="fs-6 mb-4">Los LEDS si prenden con los respectivos botones</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid4.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 5</h2>
+                        <p class="fs-6 mb-4">Los LEDS se iran prendiendo por cada vez que se presione el botón</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid5.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 6</h2>
+                        <p class="fs-6 mb-4">El LED prende si se presiona alguno de los botones</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid6.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 7</h2>
+                        <p class="fs-6 mb-4">El LED prende si se presionan ambos botones al mismo tiempo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Vid7.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">EEn este proyecto con Arduino Uno, exploramos el uso de entradas digitales mediante pulsadores y su interacción con LEDs. Aprendimos cómo configurar los pines digitales como entradas y cómo detectar cambios en el estado de los pulsadores.</p>
+                     
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Fernández, Y. (2022, September 23). Qué es Arduino, cómo funciona y qué puedes hacer con uno. Xataka. https://www.xataka.com/basics/que-arduino-como-funciona-que-puedes-hacer-uno</p>
+          
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
