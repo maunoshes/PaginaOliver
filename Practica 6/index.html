@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 6 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Brazo robótico</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/ImaUli.png" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/fotoyo.jpeg" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/ImaMauro.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">
+                                    Cristian Ulises Ríos García<br />
+                                    Jesus Mauricio Díaz Flores <br />
+                                    Mauro David Sánchez Arena 
+                                </div>
+                                <div class="text-muted">Ingeniería Mecatronica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 11, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/ArduinoIni" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, diseñamos y construimos una brazo robótico con impresión 3D, servomotores y un arduino. </p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Los brazos robóticos son una parte fundamental de la mecatrónica, una disciplina que combina la mecánica, la electrónica y la informática para crear sistemas automatizados. Los brazos robóticos, inspirados en el brazo humano, se utilizan en una amplia gama de aplicaciones, desde la fabricación hasta la medicina.</p>
+                        <p class="fs-6 mb-4"></p>
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                            - Una placa de Arduino Uno <br/>
+                            - 5 potenciometros<br/>
+                            - 5 Servomotores de 15 kg <br/>
+                            - Un protoboard <br/>
+                            - Jumpers <br/>
+                            - impresión 3D <br/>
+                            - Fuente de alimentación externa <br/>
+                        </p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo y Diseño -</h2>
+                        <p class="fs-6 mb-4">Para nuestra pinza pensamos que la mejor forma para transmitir fuerza mediante nuestros servomotores serian los engranes, para eso tuvimos que decidir el tamaño que iban a tener, decidimos un modulo de 1.375 ya que nos daba el tamaño necesario y el adecuado para la cantidad de dientes que iba a tener el engrane, la cantidad de dientes Z es de 40 ya que queriamos que el movimiento de los engranes fuera preciso, una cantidad mayor de dientes nos iba a brindar un movimiento mas limpio, la altura del diente de 3mm nos ayuda a tener un torque fuerte entre los engranes, esto nos ayuda a apretar objetos con fuerza en la pinza, para calcular la distancia que tenian que tener los centros de cada engrane usamos la formula de distancia entre centros, donde sumamos ambos DP y lo dvivimos entre dos, el resultado nos indica la distancia adecuada para que los dientes enbonen, finalmente la relacion de transmision se queda intacta ya que ambos engranes son del mismo tamaño no se pierde ni gana fuerza o velocidad. </p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 1.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4"></p>
+                            <p class="fs-6 mb-4">Para la pinza diseñamos la base de los engranes, que respetan la distancia entre centros, despues mediante los engranes diseñamos una pinza que iba a estar conectada a estos, de tal forma cuando gire el servo, ambas pinzas apretaran o soltaran.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 2.jpg" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 3.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4">En la base de la pinza incorporamos una muñeca, esta nos ayuda a controloar el angulo en el cual la pinza cierre, esta muñeca la conectamos a un servo Micro Servomotor con torque de 2,2 Kgf/cm.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 4.jpg" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 5.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Para la muñeca se desarrollo un brazo con las medidas adecuadas para incorporar un servomotor con torque de 10 Kgf/cm, que ofrece un torque más elevado y es adecuado para aplicaciones que demandan mayor fuerza, en este caso el servomotor se encargara de cargar la pinza completa.</p>
+                            <p class="fs-6 mb-4">Finalmente se implemento una base para que se incorporara un servomotor que nos ayudara a mover la pinza completa en la direccion deseada, la base viene incluida con su respectivas patas.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 6.jpg" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Imagen 7.jpg" alt="..." /></figure>
+                            
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">Se hizo un codigo que controla seis servomotores utilizando entradas analógicas del Arduino para ajustar su posición. Cada servomotor está asociado a un pin digital del Arduino y se mueve de acuerdo con la lectura de un sensor o potenciómetro.</p>
+                            <p class="fs-6 mb-4"> 1.    Configuración inicial: Se utiliza la librería <Servo.h> para manejar los servos, los cuales se conectan a pines digitales específicos (del 2 al 7).</p>
+                            <p class="fs-6 mb-4"> 2.	Funcionamiento principal: En el bucle loop(), se leen seis valores analógicos (A0 a A5), se escalan de 0 a 1023 para convertirlos en un ángulo entre 0 y 180 grados, y luego se envían a cada servomotor para ajustar su posición.</p>
+                            <p class="fs-6 mb-4">Esta implementación permite controlar la orientación de cada servomotor en la garra de manera independiente y en tiempo real.</p> 
+                            
+                            <p class="fs-6 mb-4">Este es el código de arduino para mover el servomotor: </p> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Cod1.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Cod2.png" alt="..." /></figure>
+
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                            <p class="fs-6 mb-4">El resultado obtenido sobre este brazo fue satisfactorio; su funcionamiento fue el más óptimo, además de haber superado la prueba de pasar una pelota de un lado al otro. </p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/VideoGarra.mp4" type="video/mp4" style="transform: rotate(-90deg);" controls> 
+                            </video></p></figure>
+       
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">En conclusión, este proyecto nos permitió entender los fundamentos del control de servomotores utilizando Arduino en nuestro brazo robótico. Posteriormente, los controlamos manualmente con un potenciómetro, logrando así mover objetos de un lado a otro. </p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
+                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
+                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        
+                        
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
