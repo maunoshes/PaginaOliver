@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 3 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino Basico 0: Salidas Digitales</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="rounded-circle me-3" src="assets/ImaUli.png" alt="..." width="40px">
+                        <img class="rounded-circle me-3" src="assets/fotoyo.jpeg" alt="..." width="40px">
+                        <img class="rounded-circle me-3" src="assets/ImaMauro.png" alt="..." width="40px">
+                            <div class="ms-2">
+                                <div class="fw-bold">
+                                    Cristian Ulises Ríos García<br />
+                                    Jesus Mauricio Díaz Flores <br />
+                                    Mauro David Sánchez Arena 
+                                </div>
+                                <div class="text-muted">Ingeniería Mecatronica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 29, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/ArduinoIni" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Durante esta práctica, diseñamos una serie de circuitos con el objetivo de comprender los fundamentos del funcionamiento de Arduino. Exploramos cómo el código se utiliza para proporcionar instrucciones a esta plataforma.</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Arduino es una plataforma de hardware y software de código abierto que permite crear proyectos electrónicos interactivos. Se basa en placas de circuito impresas con microcontroladores, que actúan como pequeños cerebros que controlan los componentes electrónicos. El software de Arduino es un entorno de desarrollo integrado (IDE) que facilita la programación en un lenguaje sencillo llamado C++.</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                            - Una placa de Arduino Uno <br/>
+                            - Un cable USB tipo B <br/>
+                            - LEDS <br/>
+                            - Un protoboard <br/>
+                            - Resistencias de 220 Ohms <br/>
+                            - Un display de 7 segmentos
+                        </p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Durante el desarrollo de esta práctica, trabajamos con diez ejemplos distintos que el profesor nos proporcionó a través de la aplicación Tinkercad. </p>
+                        <p class="fs-6 mb-4">A continuación explicaremos cada uno de los ejemplos que se elaborarón en clases. </p>
+                        
+                            <p id="Ejemplos 0 a 3">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Ejemplos del 0 a 3 -</h2>
+                            <p class="fs-6 mb-4"></p>
+                            <p class="fs-6 mb-4"></p>
+                         
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 0</h1>
+                            <p class="fs-6 mb-4">Para la simulación de este ejemplo solo se ejecuto el siguiente codigo: </p>
+                            <p class="fs-6 mb-4"></p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem0Cod.png" alt="..." /></figure>
+                    
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 1</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo solo se ejecuto el siguiente codigo: </p>
+                            <p class="fs-6 mb-4"></p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem1Cod.png" alt="..." /></figure>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 2</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo solo se ejecuto el siguiente codigo: </p>
+                            <p class="fs-6 mb-4"></p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem2Cod.png" alt="..." /></figure>
+                    
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 3</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo solo se ejecuto el siguiente codigo: </p>
+                            <p class="fs-6 mb-4"></p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem3Cod.png" alt="..." /></figure>
+                            
+                            <p id="Ejemplos 4">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Ejemplos del 4 -</h2>
+                            <p class="fs-6 mb-4"></p>
+                            <p class="fs-6 mb-4"></p>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 4</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se conecto un LED, el lado positivo se conecto en el pin 12 y el lado negativo en el pin 13.</p>
+
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el LED en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim4.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem4Cod.png" alt="..." /></figure>
+
+                            <p id="Ejemplos 4">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Ejemplos del 5 a 7 -</h2>
+                            <p class="fs-6 mb-4"></p>
+                            <p class="fs-6 mb-4"></p>
+    
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 5</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecto un LED, con un jumper, se conecto el lado negativo del LED a el negativo del protoboard, luego se conecto una resistencia del lado positivo del LED y del otro lado de la resistencia se conecto otro jumper que se conecta con el PIN 13 del Arduino. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.   </p>
+    
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim5.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem5Cod.png" alt="..." /></figure>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 6</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conectaron dos LEDS, con un jumper cada uno, se conectaron el lado negativo del LED a el negativo del protoboard, luego se conectaron dos resistencia del lado positivo de cada LED, despues se unio la salida de una de las resistencias en la misma columna con la otra resistencia con un jumper y se conecto esa columna con el PIN 13 del Arduino. Finalmente se conecta el negativo del protoboard con Ground del Arduino y el positivo con el PIN de alimentación del Arduino.   </p>
+        
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim6.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem6Cod.png" alt="..." /></figure>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 7</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conectaron dos LEDS, con un jumper cada uno, se conectaron el lado negativo del LED a el negativo del protoboard, luego se conectaron dos resistencia del lado positivo de cada LED, despues se conecto un jumper a la salida de una resistencia y se conecto al PIN 13 del Arduino y luego se conecta la resistencia con un jumper en el PIN 12. Finalmente se conecta el negativo del protoboard con Ground del Arduino.</p>
+            
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el circuito en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim7.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem7Cod.png" alt="..." /></figure>
+    
+                            <p id="Ejemplos 4">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5">- Ejemplos del 8 y 9 -</h2>
+                                <p class="fs-6 mb-4"></p>
+                                <p class="fs-6 mb-4"></p>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 8</h1>
+                            <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecto un display de 7 elementos se conectaron 8 jumper en cada PIN del dislay dejando solo los del centro, cada jumper se conecto en el PIN 13, 12, -10, -9, 7, -6, -5, 4 del Arduino, luego se conecto un jumper en el pin inferior en medio, este se conecto en la misma columna que una salida de la resistencia y el otro lado se conecto con otro jumper a el lado negativo del protoboard. Finalmente se conecta el lado negativo del protoboard con Ground del Arduino y el lado positivo del protoboard con el PIN de alimentación del Arduino.</p>
+                
+                            <p id="simulacion"></p>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                            <p class="fs-6 mb-4">Este es el diseño del Arduino y el LED en Tinkercad:</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim8.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem8Cod.png" alt="..." /></figure>
+
+                            <p id="simulacion">
+                                <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Desarrollo del ejemplo 9</h1>
+                                <p class="fs-6 mb-4">Para el desarrollo de este ejemplo se armo un protoboard donde se conecto un display de 7 elementos se conectaron 8 jumper en cada PIN del dislay dejando solo los del centro, cada jumper se conecto en el PIN 13, 12, -10, -9, 7, -6, -5, 4 del Arduino, luego se conecto un jumper en el pin inferior en medio, este se conecto en la misma columna que una salida de la resistencia y el otro lado se conecto con otro jumper a el lado negativo del protoboard. Finalmente se conecta el lado negativo del protoboard con Ground del Arduino y el lado positivo del protoboard con el PIN de alimentación del Arduino.</p>
+                    
+                                <p id="simulacion"></p>
+                                <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño</h1>
+                                <p class="fs-6 mb-4">Este es el diseño del Arduino y el LED en Tinkercad:</p>
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Sim8.png" alt="..." /></figure>
+                                <p class="fs-6 mb-4">Y este es el codigo utilizado para prender el LED: </p>
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem9_1Cod.png" alt="..." /></figure>
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejem9_2Cod.png" alt="..." /></figure>
+        
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">En este apartado mostraremos los resultados que obtuvimos de cada ejemplo:  </p>
+                        
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 0</h2>
+                        <p class="fs-6 mb-4">El LED del Arduino si pardadea cada 1 segundo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem0Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 1</h2>
+                        <p class="fs-6 mb-4">El LED si se mantiene encendido</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem1Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 2</h2>
+                        <p class="fs-6 mb-4">El LED prende y despues se apaga para seguir asi</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem2Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 3</h2>
+                        <p class="fs-6 mb-4">El LED del Arduino si parpadea cada 1 segundo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem3Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 4</h2>
+                        <p class="fs-6 mb-4">EL LED si parpadea cada 1 segundo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem4Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 5</h2>
+                        <p class="fs-6 mb-4">El led conectado al protoboard si parpadea</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem5Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 6</h2>
+                        <p class="fs-6 mb-4">Ambos LEDS que estan en el protoboard parpadean al mismo tiempo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem6Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 7</h2>
+                        <p class="fs-6 mb-4">Ambos LEDS que estan en el protoboard parpadean intercalados cada 1 segundo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem7Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 8</h2>
+                        <p class="fs-6 mb-4">El display si prendio las partes que se solicitaban</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem8Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Ejemplo 9</h2>
+                        <p class="fs-6 mb-4">EL display si prendio, ademas continuo contando hasta dos de forma indefinida cada un segundo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejem9Vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">En esta practica, exploramos las posibilidades de Arduino al trabajar con LEDs y un display de 7 segmentos. Aprendimos cómo los bucles en el código permiten que estos componentes se repitan en ciclos. Además, descubrimos que Arduino no solo es una herramienta técnica, sino también un espacio para la creatividad y la interacción con el mundo físico.</p>
+                     
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Fernández, Y. (2022, September 23). Qué es Arduino, cómo funciona y qué puedes hacer con uno. Xataka. https://www.xataka.com/basics/que-arduino-como-funciona-que-puedes-hacer-uno</p>
+          
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
