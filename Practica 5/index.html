@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 5 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino Basico 2: Servomotores</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/ImaUli.png" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/fotoyo.jpeg" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/ImaMauro.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">
+                                    Cristian Ulises Ríos García<br />
+                                    Jesus Mauricio Díaz Flores <br />
+                                    Mauro David Sánchez Arena 
+                                </div>
+                                <div class="text-muted">Ingeniería Mecatronica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 5, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/ArduinoIni" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, diseñamos circuitos para entender el control de servomotores con Arduino. Exploramos cómo el código puede mover el motor a ángulos específicos y cómo usar un potenciómetro para controlarlo manualmente.</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Un potenciómetro es un componente electrónico que funciona como un divisor de voltaje. Su principal uso es variar la resistencia en un circuito, permitiendo controlar manualmente dispositivos como servomotores. En esta práctica, utilizamos un potenciómetro para ajustar el ángulo de un servomotor, conectándolo a la plataforma Arduino para experimentar con el control de movimientos precisos. A continuación mostraremos algunos ejemplos del uso de servomotores explicados de manera básica.</p>
+                        <p class="fs-6 mb-4"></p>
+
+                        <p id="intro">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Ejemplo 1 -</h2>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                            - Una placa de Arduino Uno <br/>
+                            - Un cable USB tipo B <br/>
+                            - Servomotor <br/>
+                            - Un protoboard <br/>
+                            - Jumpers <br/>
+                        </p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Para realizar esta sencilla práctica lo único que se tiene que que hacer es primero dar alimentación a la protoboard, conectando un jumper en el pin 5v de arduino y otro jumper en el pin GND de arduino. Una vez hecho, se usan jumpers para conectar el positivo y negativo del servomotor al voltaje y tierra del protoboard, y el tercer espacio se conecta al pin 9 de arduino. </p>
+                        
+                            
+                         
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño </h1>
+                            <p class="fs-6 mb-4">Desarrollamos el siguiente circuito en tinkercad: </p> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo1tinker.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4"></p>
+                            <p class="fs-6 mb-4">Y usamos el siguiente código de arduino para mover el servomotor: </p> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo1codigo.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                            <p class="fs-6 mb-4">Los resultados fueron los esperados, al obtener un servomotor que se mueve 90°</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/video1.mp4" type="video/mp4">
+                            </video></p></figure>
+
+                            <p id="intro">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Ejemplo 2 -</h2>
+                            
+                            <p id="materiales">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                            <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                                - Una placa de Arduino Uno <br/>
+                                - Un cable USB tipo B <br/>
+                                - Servomotor <br/>
+                                - Un protoboard <br/>
+                                - Jumpers <br/>
+                            </p>
+                            <p class="fs-6 mb-4"></p>
+                            
+                            <p id="desarrollo">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                            <p class="fs-6 mb-4">Ésta práctica es físicamente igual a la anterior, lo único que cambia es el código de arduino por lo que el procedimiento de armado es igual al anterior, se da alimentación al protoboard y al servomotor, para luego conectar el servomotor al pin 9 de arduino. </p>
+                                
+                             
+                                <p id="simulacion">
+                                <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño </h1>
+                                <p class="fs-6 mb-4">Desarrollamos el siguiente circuito en tinkercad (igual al anterior): </p> 
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo2tinker.png" alt="..." /></figure>
+                                <p class="fs-6 mb-4"></p>
+                                <p class="fs-6 mb-4">Y usamos el siguiente código de arduino para mover el servomotor más de una vez: </p> 
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo2codigo.png" alt="..." /></figure>
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                                <p class="fs-6 mb-4">Los resultados fueron los esperados, al obtener un servomotor que se mueve a la posición de 0°, luego 90° y finalmente 180°</p>
+                                <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/video2.mp4" type="video/mp4">
+                                </video></p></figure>
+
+                    
+                                <p id="intro">
+                                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Ejemplo 3/4 -</h2>
+                                
+                                <p id="materiales">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                                <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                                    - Una placa de Arduino Uno <br/>
+                                    - Un potenciómetro <br/>
+                                    - Un cable USB tipo B <br/>
+                                    - Servomotor <br/>
+                                    - Un protoboard <br/>
+                                    - Jumpers <br/>
+                                </p>
+                                <p class="fs-6 mb-4"></p>
+                                
+                                <p id="desarrollo">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                                <p class="fs-6 mb-4">Estas dos prácticas son exactamente lo mismo, solo que varía en la fuente de alimentación, es por eso que se encuentran en un mismo apartado dicho esto, para realizar estas prácticas lo primero que se tiene que hacer es dar voltaje de la misma manera que se hizo anteriormente al protoboard, luego dar voltaje al servomotor y conectarlo al pin 9, finalmente conectar un potenciómetro al protoboard, conectar un jumper al voltaje del potenciómetro y otro jumper a tierra del potenciómetro y conectar el potenciómetro al pin analógico 0 del arduino.  </p>
+                                    
+                                 
+                                    <p id="simulacion">
+                                    <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño </h1>
+                                    <p class="fs-6 mb-4">Desarrollamos dos circuitos en tinkercad utilizando el potenciómetro, el único cambio es que uno tiene de alimentación la computadora y el otro tiene de alimentación una fuente de alimentación externa: </p> 
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo3,1tinker.png" alt="..." /></figure>
+                                    <p class="fs-6 mb-4"></p>
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo3,2tinker.png" alt="..." /></figure>
+                                    <p class="fs-6 mb-4"></p>
+                                    <p class="fs-6 mb-4">Y usamos el siguiente código de arduino para mover el servomotor cuando se mueve el potenciómetro: </p> 
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ejemplo3codigo.png" alt="..." /></figure>
+                                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                                    <p class="fs-6 mb-4">Los resultados fueron los esperados, al obtener un servomotor que se mueve a la posición en donde se encuentra el potenciómetro, o en otras palabras, el servomotor se mueve al mover el potenciómetro</p>
+                                    <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/video3y4.mp4" type="video/mp4">
+                                    </video></p></figure>
+                                
+                                    <p id="intro">
+                                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Ejemplo 5 -</h2>
+                                    
+                                    <p id="materiales">
+                                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                                    <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                                        - Una placa de Arduino Uno <br/>
+                                        - Un potenciómetro <br/>
+                                        - Un cable USB tipo B <br/>
+                                        - 2 Servomotores <br/>
+                                        - Un protoboard <br/>
+                                        - Jumpers <br/>
+                                    </p>
+                                    <p class="fs-6 mb-4"></p>
+                                    
+                                    <p id="desarrollo">
+                                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                                    <p class="fs-6 mb-4">Para realizar ésta práctica primero se da voltaje al protoboard, luego dar voltaje a ambos servomotores y conectar el primer servomotor al pin 9 y el segundo al pin 2, finalmente conectar el potenciómetro al protoboard, conectar un jumper al voltaje del potenciómetro y otro jumper a tierra del potenciómetro y conectar el potenciómetro al pin analógico 0 del arduino.  </p>
+                                        
+                                     
+                                        <p id="simulacion">
+                                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño </h1>
+                                        <p class="fs-6 mb-4">Desarrollamos el siguiente circuito en tinkercad utilizando el potenciómetro y 2 servomotores: </p> 
+                                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo4tinker.png" alt="..." /></figure>
+                                        <p class="fs-6 mb-4"></p>
+                                        <p class="fs-6 mb-4">Y usamos el siguiente código de arduino para mover ambos servomotores cuando se mueve el potenciómetro: </p> 
+                                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo4codigo.png" alt="..." /></figure>
+                                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                                        <p class="fs-6 mb-4">Los resultados fueron los esperados, al obtener 2 servomotores que se mueven a la posición en donde se encuentra el potenciómetro, o en otras palabras, los servomotores se mueven al mover el potenciómetro</p>
+                                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                                        <source src="video/video5.mp4" type="video/mp4">
+                                        </video></p></figure>
+
+
+                            <p id="intro">
+                                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Ejemplo 6 -</h2>
+                                
+                                <p id="materiales">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                                <p class="fs-6 mb-4">Los materiales utilizados para esta practica son: <br/> 
+                                    - Una placa de Arduino Uno <br/>
+                                    - Dos potenciómetros <br/>
+                                    - Un cable USB tipo B <br/>
+                                    - Dos servomotores <br/>
+                                    - Un protoboard <br/>
+                                    - Jumpers <br/>
+                                </p>
+                                <p class="fs-6 mb-4"></p>
+                                
+                                <p id="desarrollo">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                                <p class="fs-6 mb-4"> Para realizar ésta práctica lo primero que se tiene que hacer es dar voltaje al protoboard, luego dar voltaje a ambos servomotores y conectar el primer servomotor al pin 9 y el segundo al pin 2, finalmente conectar los potenciómetros al protoboard, conectar un jumper al voltaje del potenciómetro y otro jumper a tierra del potenciómetro, así en ambos, para luego conectar un potenciómetro al pin analógico 0 y el otro al pin analógico 1 del arduino.  </p>
+                                      
+                                    <p id="simulacion">
+                                    <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación y Diseño </h1>
+                                    <p class="fs-6 mb-4">Desarrollamos el siguiente circuito en tinkercad utilizando ambos potenciómetros y ambos servomotores: </p> 
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo5tinker.png" alt="..." /></figure>
+                                    <p class="fs-6 mb-4"></p>
+                                    <p class="fs-6 mb-4">Y usamos el siguiente código de arduino para mover los servomotores con su respectivo potenciómetro: </p> 
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ejemplo5codigo.png" alt="..." /></figure>
+                                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                                    <p class="fs-6 mb-4">Los resultados fueron los esperados, al obtener un servomotor que se mueve a la posición en donde se encuentra un potenciómetro, y el otro servomotor se mueve cuando se manipula el otro potenciómetro.</p>
+                                    <figure class="mb-4" align="center"><video width="80%"  controls>
+                                    <source src="video/video6.mp4" type="video/mp4">
+                                    </video></p></figure>
+                           
+                                                     
+                                    
+                                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">En conclusión, este proyecto nos permitió entender los fundamentos del control de servomotores utilizando Arduino. Al programar el movimiento de los motores y luego controlarlos manualmente con un potenciómetro, pude experimentar cómo la electrónica y la programación se integran para crear sistemas de control precisos y eficientes.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
+                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
+                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        
+                        
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
